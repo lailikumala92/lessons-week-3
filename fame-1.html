@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frame-1</title>
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css bootstrap -->
+
+  <!-- mycss -->
+  <link rel="stylesheet" href="css/frame-1.css">
+  <link rel="stylesheet" href="css/media-query-frame1.css">
+  <!-- mycss -->
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <!-- font -->
+</head>
+<body>
+
+<!-- header -->
+<header>
+  <header>
+    <div class="container container-1">
+      <div class="row">
+        <div class=" logo d-flex justify-content-start col-6">
+          <p>Zwallet</p>
+        </div>
+        <div class=" user d-flex justify-content-end col-6">
+          <img class="img-user" src="assets/img/robert.svg">
+          <div class=" mr-4 ml-3 profile">
+            <h6 class="name align-items-center">Robert Candler</h6>
+            <p class="phone">+62 8139 3877 7946</p>
+          </div>
+          <img class="img-bell" src="assets/img/bell.svg">
+        </div>
+        <!-- hamburger -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="home.html">DashBoard <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="reciever.html">Transfer</a>
+              <a class="nav-link" href="reciever-blank.html">Top Up</a>
+              <a class="nav-link" href="#">Profile</a>
+              <a class="nav-link" href="login.html">Logout</a>
+            </div>
+          </div>
+        </nav>
+        <!-- hamburge -->
+      </div>
+    </div>
+  </header>
+<!-- header -->
+
+<!-- main -->
+<main>
+  <div class="container">
+<!-- sidebar -->
+    <nav class="nav flex-column">
+      <div class="sidebar">
+          <a class="nav-link" href="home.html"><img class="item" src="assets/img/grid (2).png"> Dashboard</a>
+          <a class="nav-link active text-primary" href="reciever.html"><img class="item" src="assets/img/arrow-up (1).png"> Transfer</a>
+          <a class="nav-link" href="reciever-blank.html"><img class="item" src="assets/img/plus.png"> Top-Up</a>
+          <a class="nav-link" href="#"><img class="item" src="assets/img/profile.png"> Profile</a>
+          <div class="logout">
+            <a class="nav-link" href="login.html"><img class="item" src="assets/img/log-out.png"> Logout</a>
+        </div>  
+      </div>
+  </nav>
+<!-- sidebar -->
+
+<!-- content -->
+<div class="container">
+  <div class="row">
+    <div class="content col-12">
+      <h6 class="mt-4 mb-4">Transfer Money</h6>
+      <div class="reciever d-flex">
+        <img class="ml-3 mr-3" src="assets/img/samuel.png">
+        <div class="detail-profile">
+          <h6 class="name1">Samuel Suhi</h6>
+          <p class="phone1 ml-3">+62 813-8492-9994</p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="desc">
+          <p class="ml-3">Type the amount you want to transfer and then <br> press continue to the next steps</p>
+          <div class="nominal">
+            <input type="number" name="number" id="number" placeholder="Rp100.000" class="number text-center">
+            <p class="price">Rp120.000 Available</p>
+          </div>
+          <div class="input d-flex justify-content-center">
+            <input type="text" name="number" id="note" placeholder="Add some notes" class="number text-center">
+          </div>
+        </div>
+      </div>
+      <div class="button d-flex justify-content-end">
+        <div class="back">
+          <a href="#">Try Again</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- content -->
+</main>
+<!-- main -->
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class=" footer row">
+      <div class=" brand d-flex justify-content-start col-6">
+        <p>2020 Zwallet. All right reserved</p>
+      </div>
+      <div class=" contact  col-6">
+          <p class="mr-2 contact-phone">+62-5637-8882-9901</p>
+          <p class="ml-2">contact@zwallet.com</p> 
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+
+      <!-- js bootstrap -->
+      <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="js/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <!-- js bootstrap -->
+</body>
+</html>

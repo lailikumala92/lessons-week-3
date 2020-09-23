@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px) {
+    .left img {
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    
+    .left h3 {
+        margin-left: 160px;
+        margin-top: 40px;
+        font-size: 1.3em;
+    }
+    
+    .left p {
+        margin-left: 130px;
+        font-size:10px;
+    }
+    
+    .right h6 {
+        margin-top: 30px;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    
+    .right p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    
+    /* .input {margin-top: 40px;}
+
+    .input p {
+        margin-top: -5px;
+        margin-left: 10px;
+    } */
+
+    .forget {margin-right: 35px;}
+
+    .login {
+        padding: 11px 130px;
+        margin-left: 60px;
+    }
+
+    .signUp {margin-left: 80px;}
+
+    .signUp p span {
+        color: rgba(37, 91, 185, 0.8);
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .left img {
+        width: 320px;
+        margin-left: 170px;
+    }
+    
+    .left p {
+        margin-left: 215px;
+        font-size:10px;
+    }
+    
+    .right h6 {margin-left: 210px;}
+    
+    .right p {margin-left: 210px;}
+
+    .input {margin-left: 190px;}
+
+    .input p {
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+
+    .forget {margin-right: 180px;}
+
+    .login {
+        padding: 11px 130px;
+        margin-left: 230px;
+    }
+
+    .signUp {margin-left: 60px;}
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .left img {
+        width: 270px;
+        margin-left: 50px;
+    }
+    
+    .left p {
+        margin-left: 45px;
+        font-size:10px;
+    }
+    
+    .right h6 {margin-left: 10px;}
+    
+    .right p {margin-left: 7px;}
+
+    .input {margin-left: 0px;}
+
+    .forget {margin-right: 20px;}
+
+    .login {
+        padding: 11px 130px;
+        margin-left: 50px;
+    }
+
+    .signUp {margin-left: 60px;}
+
+    .signUp p span {
+        color: rgba(37, 91, 185, 0.8);
+        font-weight: 600;
+    }
+}
+
+

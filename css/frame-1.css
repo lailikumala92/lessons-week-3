@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    /* overflow: hidden; */
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -1%;
+    bottom: 85.43%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    /* overflow: hidden; */
+} 
+
+.container-1 {line-height: 140px;}
+
+.logo p {
+    color: #6379F4;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.user h6 {line-height: 31px;}
+
+.user p {line-height: 24px;}
+
+.profile {
+    align-self: center;
+    line-height: 0px;
+} 
+
+.navbar {display: none;}
+/* header */
+
+/* main */
+main {
+    position: absolute;
+    width: 100%;
+    background: #E5E5E5;
+    /* overflow: hidden; */
+}
+
+/* sidebar */
+.sidebar {
+    width: 270px;
+    height: 737px;
+    left: 150px;
+    top: 180px;
+    border-radius: 25px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 46px;
+    /* overflow: hidden; */
+}
+
+.nav-link {
+    list-style: none;
+    margin-top: 47px;
+    margin-right: 100px;
+    color: black;
+    overflow: hidden;
+}
+
+.nav-link.active::after {
+    content: '';
+    display: block;
+    border-left: 3px solid #6379F4;
+    width: 20%;
+    height: 25px;
+    margin: auto;
+    margin-left: -16px;
+    margin-top: -25px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-left: 3px solid #6379F4;
+    width: 20%;
+    height: 25px;
+    margin: auto;
+    margin-left: -16px;
+    margin-top: -25px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-left: 3px solid #6379F4;
+    width: 20%;
+    height: 15px;
+    margin: auto;
+    margin-left: -16px;
+    margin-top: -15px;
+}
+
+.sidebar li {margin-bottom: 52px;}
+
+.logout {margin-top: 310px;}
+/* sidebar */
+
+/* content */
+.content {
+height: 737px;
+width: 850px;
+left: 440px;
+top: 180px;
+position: absolute;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 25px;
+/* overflow: hidden; */
+}
+
+.content h6 {
+    margin-left: 20px;
+}
+
+.reciever {
+    margin: 20px;
+    height: 110px;
+    width: 790px;
+    margin-top: 20px;
+    line-height: 0px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.list {margin-top: 80px;}
+
+.list h6 {margin-left: 30px;}
+
+.reciever img {
+    margin-top: 20px;
+    width: 65px;
+    height: 65px;
+}
+
+.detail-profile {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.desc p {
+    margin-top: -40px;
+    line-height: 15px;
+}
+
+.nominal {
+    display: grid;
+    justify-content: center;
+    top: 451px;
+    /* align-items: center; */
+}
+
+#number {
+    margin-top:70px;
+    margin-left: 30px;
+    height: 50px;
+    font-size: 50px;
+    color:  #6379F4;
+    border: none;
+}
+
+#note {
+    background-image: url('../assets/img/pen.png');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 3px;
+    margin-left: 80px;
+    border: none;
+    width: 300px;
+}
+
+.input{
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+
+.nominal p {
+position: absolute;
+width: 154px;
+height: 22px;
+left: 365px;
+top: 446px;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color: #3A3D42;
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: 100px;
+}
+
+.input p {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.back {
+    height: 47px;
+    width: 155px;
+    left: 0px;
+    top: 655px;
+    position: absolute;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    line-height: 47px;
+    margin-left: 630px;
+}
+
+.back a {
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+
+
+/* content */
+/* main */
+
+/* footer */
+footer {
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 950px;
+    border-radius: 0px;
+    position: absolute;
+    background: #6379F4;
+    line-height: 68px;
+    color: #FFFFFF
+}
+
+.brand {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.contact {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    left: 230px;
+
+}
+/* footer */
+
+
+

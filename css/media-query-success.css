@@ -1,0 +1,332 @@
+@media screen and (max-width: 1024px) {
+    .profile h6 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .profile p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 230px;
+        height: 800px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .sidebar li {margin-bottom: 0px;}
+
+    .logout {margin-top: 480px;}
+
+    .nav-link {margin-top: 20px;}
+
+    .nav-link img {width: 25px;}
+
+    .content {
+        height: 800px;
+        width: 700px;
+        left: 280px;
+        top: 180px;
+    }
+    
+    .content h6 {margin-left: 260px;}
+    
+    .success img {
+        width: 70px;
+        height: 70px;
+        margin-top: 40px;
+    }
+    
+    .list {margin-top: 40px;}
+    
+    .reciever {
+        margin: 20px;
+        height: 70px;
+        width: 630px;
+    }
+    
+    .list h6 {margin-left: 30px;}
+    
+    .reciever img {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+    }
+    
+    .detail-profile {
+        margin-top: 10px;
+    }
+    
+    .share img {
+        width: 150px;
+        height: 150px;
+        margin-right: 430px;
+        margin-top: -35px;
+    }
+    
+    .button a {text-decoration: none;}
+    
+    .download {
+        top: 700px;
+        margin-left: 220px;
+    }
+    
+    .back {
+        top: 700px;
+        margin-left: 480px;
+    }
+    
+    .back a {color: #FFFFFF;}
+
+    footer {top: 1035px;}
+
+    .contact {left: 100px;}
+        
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 120px;
+    }
+
+    .logo p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .user h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    .user p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .profile {
+        align-self: center;
+        line-height: 0px;
+    } 
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 170px;
+        height: 800px;
+        left: 20px;
+    }
+
+    .sidebar a {
+        margin: 20px 20px 20px 0px;
+        font-size: 13px;
+    }
+
+    .sidebar img{width: 20px;}
+
+    .logout {margin-top: 480px;}
+
+    
+    .content {
+        height: 800px;
+        width: 530px;
+        left: 210px;
+        top: 180px;
+    }
+    
+    .content h6 {
+        margin-left: 180px;
+        font-weight: 400;
+    }
+    
+    .success img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .reciever {
+        margin: 20px;
+        height: 70px;
+        width: 460px;
+    }
+
+    .list h6 {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .reciever img {
+        width: 50px;
+        height: 50px;
+        margin-top: 8px;
+    }
+    
+    .detail-profile {
+        margin-top: 10px;
+    }
+    
+    .share img {
+        margin-right: 290px;
+        margin-top: -20px;
+    }
+    
+    .download {
+        top: 690px;
+        margin-left: 180px;
+        width: 150px;
+        font-size: 13px;
+    }
+
+    .download img {margin-left: -27px;}
+
+    .back {
+        top: 690px;
+        margin-left: 350px;
+        width: 145px;
+        font-size: 13px;
+    }
+
+    footer {top: 1035px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    header {height: 150px;}
+
+    .container {line-height: 90px;}
+
+    .profile {margin-top: 35px;}
+
+    .img-user {
+        width: 45px;
+        height: 45px;
+        margin-top: 45px;
+        display: inherit;
+    }
+
+    .logo p {
+        font-weight: 500;
+        font-size: 19px;
+    }
+    
+    .user h6 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .user p {
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .img-bell {display: none;}
+
+    .content {
+        display: relative;
+        z-index: 1;
+    }
+
+    .sidebar {display: none;}
+
+    .navbar {
+        margin-top: -15px;
+        margin-left: 10px;
+        z-index: 2;
+        display: inherit;
+    }
+
+    .nav-link.active::after, .nav-link:hover::after {
+        display: none;
+    }
+
+    .content {
+        height: 680px;
+        width: 380px;
+        left: 20px;
+        top: 180px;
+    }
+    
+    .content h6 {margin-left: 100px;}
+    
+    .success img {
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    
+    .reciever {
+        margin: 10px;
+        height: 65px;
+        width: 330px;
+        line-height: 20px;
+    }
+
+    .list h6 {margin-left: 10px;}
+        
+    .reciever img {
+        margin-top: 8px;
+    }
+    
+    .detail-profile {
+        margin-top: 10px;
+    }
+    
+    .share img {
+        margin-right: 250px;
+        margin-top: -20px;
+    }
+    
+    .download {
+        top: 590px;
+        margin-left: 75px;
+        width: 140px;
+        font-size: 12px;
+    }
+
+    .back {
+        top: 590px;
+        margin-left: 225px;
+        width: 140px;
+        font-size: 13px;
+    }
+
+    footer {top: 900px;}
+
+    .footer {
+        line-height: 5px;
+        margin-top: 15px;
+    }
+    
+    .brand {
+        font-weight: 200;
+        font-size: 7px;
+        margin: 0px;
+    }
+    
+    .contact {
+        display: inherit;
+        font-size: 7px;
+        font-weight: 400;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 5px;
+        left: 30px;
+    }
+
+    .contact h6 {grid-column: 1 / -1;}
+
+}

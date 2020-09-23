@@ -1,0 +1,320 @@
+@media screen and (max-width: 1024px) {
+    .profile h6 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .profile p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 230px;
+        height: 800px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .sidebar li {margin-bottom: 0px;}
+
+    .logout {margin-top: 480px;}
+
+    .nav-link {margin-top: 20px;}
+
+    .nav-link img {width: 25px;}
+
+    .content {
+        height: 800px;
+        width: 700px;
+        left: 280px;
+        top: 180px;
+    }
+    
+    .content h6 {margin-left: 260px;}
+    
+    .failed img {
+        width: 70px;
+        height: 70px;
+        margin-top: 40px;
+    }
+
+    .des-1 p {margin-left: 100px;}
+    
+    .des-2 p {margin-left: 235px;}
+    
+    .description p {margin-left: 300px;}
+    
+    .list {margin-top: 35px;}
+    
+    .reciever {
+        margin: 15px;
+        height: 70px;
+        width: 630px;
+        line-height: 20px;
+    }
+    
+    .list h6 {margin-left: 30px;}
+    
+    .reciever img {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+    }
+    
+    .detail-profile {margin-top: 10px;}
+    
+    .back {
+        top: 730px;
+        margin-left: 480px;
+    }
+    
+    .back a {color: #FFFFFF;}
+
+    footer {top: 1035px;}
+
+    .contact {left: 100px;}
+        
+}
+
+@media screen and (max-width: 768px) {
+    header {height: 120px;}
+
+    .logo p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .user h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    .user p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .profile {
+        align-self: center;
+        line-height: 0px;
+    } 
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 170px;
+        height: 800px;
+        left: 20px;
+    }
+
+    .sidebar a {
+        margin: 20px 20px 20px 0px;
+        font-size: 13px;
+    }
+
+    .sidebar img{width: 20px;}
+
+    .logout {margin-top: 480px;}
+
+    
+    .content {
+        height: 800px;
+        width: 530px;
+        left: 210px;
+        top: 180px;
+    }
+    
+    .content h6 {
+        margin-left: 180px;
+        font-weight: 400;
+    }
+    
+    .failed img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .des-1 p {
+        margin-left: 38px;
+        font-size: 12px;
+    }
+    
+    .des-2 p {
+        margin-left: 160px;
+        font-size: 12px;
+    }
+    
+    .description p {margin-left: 300px;}
+    
+    .reciever {
+        margin: 20px;
+        height: 70px;
+        width: 460px;
+    }
+
+    .list h6 {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .reciever img {
+        width: 50px;
+        height: 50px;
+        margin-top: 8px;
+    }
+    
+    .detail-profile {margin-top: 10px;}
+    
+    .back {
+        top: 735px;
+        margin-left: 350px;
+        width: 145px;
+        font-size: 13px;
+    }
+
+    footer {top: 1035px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    header {height: 150px;}
+
+    .container {line-height: 90px;}
+
+    .profile {margin-top: 35px;}
+
+    .img-user {
+        width: 45px;
+        height: 45px;
+        margin-top: 45px;
+        display: inherit;
+    }
+
+    .logo p {
+        font-weight: 500;
+        font-size: 19px;
+    }
+    
+    .user h6 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .user p {
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .img-bell {display: none;}
+
+    .nav-link.active::after, .nav-link:hover::after {
+        display: none;
+    }
+
+    .content {
+        display: relative;
+        z-index: 1;
+    }
+
+    .sidebar {display: none;}
+
+    .navbar {
+        margin-top: -15px;
+        margin-left: 10px;
+        z-index: 2;
+        display: inherit;
+    }
+
+    .content {
+        height: 680px;
+        width: 380px;
+        left: 20px;
+        top: 180px;
+    }
+    
+    .content h6 {margin-left: 120px;}
+    
+    .failed img {
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .des-1 p {
+        margin-left: 18px;
+        margin-top: -50px;
+        font-size: 9px;
+    }
+    
+    .des-2 p {
+        margin-left: 110px;
+        font-size: 9px;
+        margin-top: -80px;
+    }
+    
+    .description p {margin-left: 300px;}
+    
+    .list {margin-top: 0px;}
+    
+    .reciever {
+        margin: 10px;
+        height: 65px;
+        width: 330px;
+        line-height: 20px;
+    }
+
+    .list h6 {margin-left: 10px;}
+        
+    .reciever img {margin-top: 8px;}
+    
+    .detail-profile {margin-top: 10px;}
+    
+
+    .back {
+        top: 630px;
+        height: 38px;
+        margin-left: 225px;
+        width: 135px;
+        font-size: 13px;
+        line-height: 38px;
+    }
+
+    footer {top: 900px;}
+
+    .footer {
+        line-height: 5px;
+        margin-top: 15px;
+    }
+    
+    .brand {
+        font-weight: 200;
+        font-size: 7px;
+        margin: 0px;
+    }
+    
+    .contact {
+        display: inherit;
+        font-size: 7px;
+        font-weight: 400;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 5px;
+        left: 30px;
+    }
+
+    .contact h6 {grid-column: 1 / -1;}
+
+}

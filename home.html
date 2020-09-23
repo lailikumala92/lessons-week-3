@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css bootstrap -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+  <!-- mycss -->
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/media-query-home.css">
+  <!-- mycss -->
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <!-- font -->
+</head>
+<body>
+
+<!-- header -->
+<header>
+  <header>
+    <div class="container container-1">
+      <div class="row">
+        <div class=" logo d-flex justify-content-start col-6">
+          <p>Zwallet</p>
+        </div>
+        <div class=" user d-flex justify-content-end col-6">
+          <img class="img-user" src="assets/img/robert.svg">
+          <div class=" mr-4 ml-3 profile">
+            <h6 class="name align-items-center">Robert Candler</h6>
+            <p class="phone">+62 8139 3877 7946</p>
+          </div>
+          <img class="img-bell" src="assets/img/bell.svg">
+        </div>
+        <!-- hamburger -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="home.html">DashBoard <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="reciever.html">Transfer</a>
+              <a class="nav-link" href="reciever-blank.html>Top Up</a>
+              <a class="nav-link" href="#">Profile</a>
+              <a class="nav-link" href="login.html">Logout</a>
+            </div>
+          </div>
+        </nav>
+        <!-- hamburger -->
+      </div>
+    </div>
+  </header>
+<!-- header -->
+
+<!-- main -->
+<main>
+  <div class="container">
+<!-- sidebar -->
+    <nav class="nav flex-column">
+      <div class="sidebar">
+          <a class="nav-link active text-primary" href="home.html"><img class="item" src="assets/img/grid.png"> Dashboard</a>
+          <a class="nav-link" href="reciever.html"><img class="item" src="assets/img/arrow-up.png"> Transfer</a>
+          <a class="nav-link" href="reciever-blank.html"><img class="item" src="assets/img/plus.png"> Top-Up</a>
+          <a class="nav-link" href="#"><img class="item" src="assets/img/profile.png"> Profile</a>
+          <div class="logout">
+            <a class="nav-link" href="login.html"><img class="item" src="assets/img/log-out.png"> Logout</a>
+        </div>  
+      </div>
+  </nav>
+<!-- sidebar -->
+
+<!-- content -->
+<div class="container">
+    <div class="content col-12 col-md-12 col-lg-12">
+      <div class="row">
+        <div class="row-1">
+          <div class="desc d-flex justify-content-start">
+            <div class="sub-desc align-items-center">
+              <p>Balance</p>
+              <h2>Rp120.000</h2>
+              <p>+62 813 9387 7946</p>
+            </div>
+          </div>
+          <div class="button-proccess d-flex justify-content-end">
+            <div class="sub-proccess">
+              <button class="transfer btn-primary d-flex flex-column" type="button"><a href="reciever-blank.html"><img src="assets/img/arrow-up.png">Transfer</a></button>
+              <button class="topUp btn-primary d-flex flex-column" type="button"><a href="reciever-blank.html"><img src="assets/img/plus.png">Top Up</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-row">
+          <div class="row-a col-lg-7 col-md-7 col-sm-12 col-12 d-flex justify-content-start">
+            <div class="income d-flex justify-content-start">
+              <div class="sub-income">
+                <img src="assets/img/income-2.png">
+                <p>Income</p>
+                <h6>Rp2.120.000</h6>
+              </div>
+            </div>
+            <div class="expense d-flex justify-content-end">
+              <div class="sub-expense">
+                <img src="assets/img/expense.png">
+                <p>Expense</p>
+                <h6>Rp1.560.000</h6>
+              </div>
+            </div>
+            <canvas id="myChart" width="400" height="400"></canvas>
+          </div>
+          <div class="row-b col col-lg-5 col-md-5 col-12 d-flex justify-content-end">
+            <div class="sub-content col-12">
+              <div class="title">
+                <h6 class="mt-4 mt-0 d-flex justify-content-start">Transaction History</h6>
+                <a class="d-flex justify-content-end mb-4" href="history.html">See All</a>
+              </div>
+              <div class="detail d-flex justify-content-start">
+                <img class="ml-3" src="assets/img/samuel.png">
+                <div class="detail-profile">
+                  <h6 class="name1">Samuel Suhi</h6>
+                  <p class="phone1">Transfer</p>
+                </div>
+              </div>
+              <div class="price d-flex justify-content-end">
+                <p class="text-success mb-4" >+Rp50.000</p>
+              </div>
+              <div class="detail d-flex justify-content-start">
+                <img class="ml-3" src="assets/img/netflix.png">
+                <div class="detail-profile">
+                  <h6 class="name1">Netflix</h6>
+                  <p class="phone1">Subscription</p>
+                </div>
+              </div>
+              <div class="price d-flex justify-content-end">
+                <p class="text-danger mb-4" >-Rp149.000</p>
+              </div>
+              <div class="detail d-flex justify-content-start">
+                <img class="ml-3" src="assets/img/christine.png">
+                <div class="detail-profile">
+                  <h6 class="name1">Christine Mar..</h6>
+                  <p class="phone1">Transfer</p>
+                </div>
+              </div>
+              <div class="price d-flex justify-content-end">
+                <p class="text-success mb-4" >+Rp150.000</p>
+              </div>
+              <div class="detail d-flex justify-content-start">
+                <img class="ml-3" src="assets/img/adobe-inc.png">
+                <div class="detail-profile">
+                  <h6 class="name1">Adobe Inc.</h6>
+                  <p class="phone1">Subscription</p>
+                </div>
+              </div>
+                <div class="price d-flex justify-content-end">
+                  <p class="text-danger mb-4">-Rp249.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- content -->
+</main>
+<!-- main -->
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class=" footer row">
+      <div class=" brand d-flex justify-content-start col-6">
+        <p>2020 Zwallet. All right reserved</p>
+      </div>
+      <div class=" contact  col-6">
+          <p class="mr-2 contact-phone">+62-5637-8882-9901</p>
+          <p class="ml-2">contact@zwallet.com</p> 
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+
+      <!-- js bootstrap -->
+      <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      
+      <script src="js/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <!-- js bootstrap -->
+      <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['sat', 'sun', 'mon', 'tue', 'wed', 'thu', 'fri'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [10, 3, 5, 7.5, 6, 9, 5.5],
+                    barPercentage: .5,
+                    height: 300,
+                    backgroundColor: [
+                        '#6379F4',
+                        '#6379F4',
+                        '#9DA6B5',
+                        '#9DA6B5',
+                        '#9DA6B5',
+                        '#6379F4'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              legend: {
+                display: false,
+                labels: {
+                  fontColor: 'rgb(255, 99, 132)'
+                }
+              },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                          display: false
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                          display: false
+                        }
+                    }]
+                }
+            }
+        });
+        </script>
+        
+</body>
+</html>

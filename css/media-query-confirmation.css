@@ -1,0 +1,270 @@
+@media screen and (max-width: 1024px) {
+    .profile h6 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .profile p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 230px;
+        height: 478px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .sidebar li {margin-bottom: 0px;}
+
+    .logout {margin-top: 130px;}
+
+    .nav-link {margin-top: 20px;}
+
+    .nav-link.active::after, .nav-link:hover::after {
+        display: none;
+    }
+
+    .nav-link img {
+        width: 25px;
+    }
+
+    .content {
+    width: 700px;
+    left: 280px;
+    height: 478px;
+    }
+
+    .content h6 {font-size: 14px;}
+    
+    .reciever {
+        margin: 0px 18px 10px 10px;
+        height: 60px;
+        width: 430px;
+    }
+
+    .reciever img {
+        width: 45px;
+        height: 45px;
+        margin-top: 7px;
+    }
+    
+    .detail-profile {
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .search {width: 630px;}
+
+    .reciever {width: 630px;}
+
+    .btn { margin-left: 550px;}
+
+    .search {
+        width: 40px;
+        height: 55px;
+        border-radius: 15px;
+        border: 2px solid grey;
+    }
+
+    footer {top: 693px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+        
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 120px;
+    }
+
+    .logo p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .user h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    .user p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .profile {
+        align-self: center;
+        line-height: 0px;
+    } 
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 170px;
+        height: 478px;
+        left: 20px;
+    }
+
+    .sidebar a {
+        margin: 20px 20px 20px 0px;
+        font-size: 13px;
+    }
+
+    .sidebar img{width: 20px;}
+
+    .logout {margin-top: 180px;}
+
+    .content {
+        height: 478px;
+        width: 550px;
+        left: 200px;
+        }
+    
+    .reciever {
+        margin: 0px 10px 10px 3px;
+        height: 60px;
+        width: 500px;
+    }
+
+    .reciever img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+    .detail-profile {margin-top: 10px;}
+
+    .btn {margin-left: 420px;}
+
+    .search {
+        width: 20px;
+        height: 40px;
+        border-radius: 15px;
+        border: 2px solid grey;
+    }
+
+    footer {top: 693px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    header {height: 150px;}
+
+    .container {line-height: 90px;}
+
+    .profile {margin-top: 35px;}
+
+    .img-user {
+        width: 45px;
+        height: 45px;
+        margin-top: 45px;
+        display: inherit;
+    }
+
+    .logo p {
+        font-weight: 500;
+        font-size: 19px;
+    }
+    
+    .user h6 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .user p {
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .img-bell {display: none;}
+
+    .content {
+        display: relative;
+        z-index: 1;
+    }
+
+    .sidebar {display: none;}
+
+    .navbar {
+        margin-top: -15px;
+        margin-left: 10px;
+        z-index: 2;
+        display: inherit;
+    }
+
+    .content {
+        height: 478px;
+        width: 400px;
+        left: 13px;
+    }
+        
+    .reciever {
+        margin: 18px 18px 18px -5px;
+        height: 55px;
+        width: 370px;
+        line-height: 13px;
+    }
+
+    .reciever img {
+        width: 45px;
+        height: 45px;
+        margin-top: 5px;
+    }
+        
+    .detail-profile {
+        margin-top: 10px;
+        line-height: 10px;
+    }
+
+    .btn 
+    {margin-left: 270px;
+    margin-top: -60px;
+    }
+    
+
+
+    footer {top: 693px;}
+
+    .footer {
+        line-height: 5px;
+        margin-top: 15px;
+    }
+    
+    .brand {
+        font-weight: 200;
+        font-size: 7px;
+        margin: 0px;
+    }
+    
+    .contact {
+        display: inherit;
+        font-size: 7px;
+        font-weight: 400;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 5px;
+        left: 30px;
+    }
+
+    .contact h6 {grid-column: 1 / -1;}
+
+}

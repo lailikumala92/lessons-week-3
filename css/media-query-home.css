@@ -1,0 +1,403 @@
+@media screen and (max-width: 1024px) {
+    .profile h6 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .profile p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 230px;
+        height: 650px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .sidebar li {margin-bottom: 0px;}
+
+    .logout {margin-top: 130px;}
+
+    .nav-link {margin-top: 20px;}
+
+    .nav-link img {
+        width: 25px;
+    }
+
+    .content {
+        height: 650px;
+        width: 700px;
+        left: 280px;
+    }
+        
+    .row-1 {
+        height: 130px;
+        width: 700px;
+    }
+
+    .sub-desc {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .sub-desc h2 {font-weight: 500;}
+
+    .sub-desc p {font-size: 14px;}
+    
+    .transfer {
+        margin-right: 70px;
+        margin-top: -120px;
+    }
+
+    .transfer img {margin-top: 5px;}
+    
+    .topUp {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .topUp img {margin-top: 5px;}
+    
+
+    .sub-row {height: 118px;}
+
+    .row-a {
+        height: 500px;
+        width: 420px;
+        bottom: 0px;
+        margin-top: 30px;
+    }
+    
+    .row-b {
+        height: 500px;
+        width: 270px;
+        right: 150px;
+    }
+
+
+    .title h6 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .title a {
+        margin-top: -25px;
+        font-size: 14px;
+    }
+
+    .detail {
+        margin-left: -10px;
+        margin-top: 25px;
+    }
+
+    .detail h6, .detail p {font-size: 14px;}
+
+    .detail img {
+        width: 35px;
+        height: 35px;
+        margin-left: 0px;
+    }
+
+    .price p {
+        margin-top: -60px;
+        margin-right: -10px;
+        
+    }
+
+    footer {top: 893px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+        
+}
+
+@media screen and (max-width: 768px) {
+    header {height: 120px;}
+
+    .logo p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .user h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    .user p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .profile {
+        align-self: center;
+        line-height: 0px;
+    } 
+
+    .navbar {display: none;}
+
+    .sidebar {
+        width: 170px;
+        height: 550px;
+        left: 20px;
+    }
+
+    .sidebar a {
+        margin: 20px 20px 20px 0px;
+        font-size: 13px;
+    }
+
+    .sidebar img{width: 20px;}
+
+    .logout {margin-top: 180px;}
+
+    .content {
+        height: 550px;
+        left: 200px;
+        }
+        
+    .row-1 { width: 550px;}
+
+    .sub-row {height: 400px;}
+
+    .row-a {
+        width: 300px;
+        height: 400px;
+        bottom: 0px;
+    }
+    
+    .row-b {
+        width: 230px;
+        right: 300px;
+        height: 400px;
+    }
+
+    .title h6 {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .title a {
+        margin-top: -25px;
+        font-size: 12px;
+    }
+
+    .detail {
+        margin-left: -20px;
+        margin-top: 0px;
+    }
+
+    .detail h6, .detail p {font-size: 12px;}
+
+    .detail img {
+        width: 35px;
+        height: 35px;
+        margin-left: 0px;
+    }
+
+    .expense {margin-left: 55px;}
+
+    canvas {
+        margin-left: -275px;
+        margin-top: 100px;
+    }
+
+    .price p {margin-right: -30px;}
+
+    footer {top: 693px;}
+
+    .contact {
+        display: flex;
+        justify-content: end;
+        left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    header {height: 150px;}
+
+    .container {line-height: 90px;}
+
+    .profile {margin-top: 35px;}
+
+    .img-user {
+        width: 45px;
+        height: 45px;
+        margin-top: 45px;
+        display: inherit;
+    }
+
+    .logo p {
+        font-weight: 500;
+        font-size: 19px;
+    }
+    
+    .user h6 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .user p {
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .img-bell {display: none;}
+
+    .sidebar {display: none;}
+
+    .navbar {
+        margin-top: -15px;
+        margin-left: 10px;
+        z-index: 2;
+        display: inherit;
+    }
+
+    .nav-link.active::after, .nav-link:hover::after {
+        display: none;
+    }
+
+    .content {
+        height: 600px;
+        width: 400px;
+        left: 13px;
+        display: relative;
+        z-index: 1;
+    }
+
+    .row-1 {
+        width: 400px;
+        height: 115px;
+        margin-top: -10px;
+    }
+
+    .sub-desc {
+        margin-left: 30px;
+        margin-top: 10px;
+        line-height: 10px;
+    }
+    
+    .sub-desc h2 {
+        font-weight: 300;
+        font-size: 24px;
+    }
+    
+    .sub-desc p {font-size: 12px;}
+    
+    .transfer {
+        height: 40px;
+        width: 130px;
+        border: none;
+        border-radius: 7px;
+        margin: -85px 70px 0px 0px;
+    }
+    
+    .transfer img {
+        margin: 10px 0px 10px 20px;
+        width: 20px;
+    }
+
+    .transfer a {margin-top: -25px;}
+    
+    .topUp {
+        height: 40px;
+        width: 130px;
+        border: none;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+
+    .topUp a {margin-top: -25px;}
+    
+    .topUp img {
+        margin: 10px 0px 10px 20px;
+        width: 20px;
+    }
+    
+    .sub-row {
+        height: 118px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 5px;
+    }
+
+    .row-a {
+        width: 500px;
+        height: 300px;
+        bottom: 0px;    
+    }
+    
+    .row-b {
+        width: 400px;
+        display: inherit;
+        left: 0px;
+    }
+
+    .title {line-height: 10px;}
+
+    .title h6 {margin-bottom: 35px;}
+
+    .title a {
+        margin-top: -35px;
+        font-size: 12px;
+    }
+
+    .detail {
+        margin-left: -20px;
+        margin-top: -30px;
+        margin-bottom: 0px;
+        line-height: 0px;
+    }
+
+    .detail h6, .detail p {font-size: 12px;}
+
+    .detail img {
+        width: 35px;
+        height: 35px;
+        margin-left: 0px;
+    }
+
+    .price p {margin-right: -30px;}
+
+
+    footer {
+        top: 690px;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        line-height: 5px;
+        margin-top: 15px;
+    }
+    
+    .brand {
+        font-size: 7px;
+        margin: 0px;
+    }
+    
+    .contact {
+        display: inherit;
+        font-size: 7px;
+        font-weight: 400;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 5px;
+        left: 30px;
+    }
+
+    .contact h6 {grid-column: 1 / -1;}
+
+}
