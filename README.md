@@ -1,4 +1,4 @@
-# lessons-week-3
+# Zwallet App
 ![Login (1)](https://user-images.githubusercontent.com/66887616/94085209-9f702180-fe31-11ea-9828-d8dea15d92b7.png)
 
 
@@ -18,4 +18,8 @@ Pada project slicing web terdapat beberapa page :
 3. reciever
 4. confirmation
 5. tampilan success maupun failed ketika sudah melakukan konfirmasi
+
+link pada netlify 
+https://heuristic-rosalind-f291f4.netlify.app
+
 
